@@ -1,0 +1,85 @@
+    {
+        id: 'raspbot',
+        name: 'Raspbot V2',
+        description: 'The Raspbot V2 is a beginner-friendly robot car that runs on the Raspberry Pi. This repository includes code and documentation for setting up the Raspbot, controlling its movement, and incorporating basic computer vision features. This repo teaches students motor control, obstacle avoidance, and basic computer vision using Python.',
+        image: 'raspbot.jpg',
+        difficulty: 'Robotics 2',
+        tags: ['Raspberry Pi', 'Educational', 'Python'],
+        sections: [
+            {
+                id: 'overview',
+                label: 'Overview',
+                content: `
+                <h2> Introduction </h2>
+                <div class="doc-note warning">
+                    <strong>Please read carefully before operating the robot.</strong>
+                </div>
+                <p>Raspbot V2 is a good introduction into robotics. It has simple and easy to learn features and commands but that also allows for a lot of creativity on your part to make it do what you want. </p>
+                <div> Important Notes before Operation </div>
+                <ul>
+                <li> The robot will drive into walls/people/other objects if you let it. </li>
+                <li> Be careful where you set the robot to run as to not let it drive under people, out of doors, etc. </li>
+                <li> Be careful with the wires, circut boards, camera, and ports when handling the robots. </li>
+                <li> When you start testing your own code, do so with your robot elevated <strong>(wheels not touching the ground)</strong>, so the robot doesn't drive randomly. </li>
+                <li> Make sure the camera is plugged in <strong>before</strong> turning on the robot so it'll work properly. Also make sure to unplug the camera <strong>before</strong> you put it away for storage.</li>
+                <li> Make sure camera servos are aligned on startup (Call TA or Professor if you are unsure). </li>
+                </ul>
+
+                <h2> Key Features </h2>
+                <p> As mentioned before, the Raspbot V2 is a beginner friendly robot, but it does still boast an impressive amount of features, such as: </p>
+                <ul>
+                <li> Omnidirectional drive via the wheel treads and independent motor functions. </li>
+                <li> A buzzer that can be called and controlled in scripts. </li>
+                <li> Camera reading capabilities, including light and color detection, video and photos, and script implementation. </li>
+                <li> Infared detection/vision with capabilities to use a remote control.  </li>
+                <li> Ultrasonic detection to measure the distance from an object. (write more or better)</li>
+                </ul>
+
+                <h2> Physical Features </h2>
+                <p> Here are some important physical and hardware on the Raspbot V2 and where they are located:
+                <div> Camera (with camera cap) </div>
+                <ul>
+                <li> Located on the front head of the robot. Camera cap should be covering the camera, make sure to not lose it and inform a TA or professor if your camera cap is missing. </li>
+                <li> Has two servos to rotate horizontally and vertically. </li>
+                <li> Camera USB wire runs from the camera towards the back USB ports of the robot (make sure the camera is plugged in). </li>
+                <li> Make sure the camera USB is plugged in <strong>before</strong> turning the robot on and unplugged <strong>after</strong> the robot is turned off to store</li>
+                </ul>
+                <div> Robot O-Led </div>
+                <ul>
+                <li> Located on the right side (facing) of the robot. </li>
+                <li> Displays robot/raspberry pi info, such as Robot Address, </li>
+                </ul>
+                <div> Wheels and Treads </div>
+                <ul>
+                <li> Located on the four corners of the robot. </li>
+                <li> Can be used to move forwards, backwards, left and right, as well as turning in place. </li>
+                <li> Notice both the wheels and treads and how they contribute to the movement of the robot </li>
+                </ul>
+                <div> Power Switch </div>
+                <ul>
+                <li> Located on the back, under the USB ports </li>
+                <li> Turns on the robot, you will know it is active by the robot beeping 3 times. <strong>(May take some time to boot up)</strong> </li>
+                </ul>
+                <div> Circut Boards, Wires, Ports </div>
+                <ul>
+                <li> Circut Boards located at the center of the bot, USB ports located at the back above the power switch. </li>
+                <li> <strong>Be Careful</strong> to not mess with the circut boards too much, if at all. </li>
+                <li> These are delicate systems crucial to the function of the robot. </li>
+                <li> Touching the wires located by the camera is known to crash the camera on occasion. Please note this and be careful of this when using the camera. </li>
+                <li> The Raspbot V2 runs on a Raspberry Pi 5. </li>
+                </ul>
+
+                <h2> Software </h2>
+                <p> Here will list most of the software you will use while using this robot: </p>
+                <div> Python (via Jupyter) </div>
+                <ul>
+                <li> You will be using Jupyter to write and run Python script for your robot. </li>
+                <li> This will allow you to do things from simply moving your bot to making it able to navigate full obstacle courses and more </li>
+                <li> Python is one of the most beginner friendly coding languages, so don't be intimidated with coding, it starts very easy. </li>
+                <li> You will be given starter code snippits and segments if you look throughout the <strong>Basic Examples</strong> and <strong>Advance Samples</strong> tabs so use those to your advantage. </li>
+                </ul>
+                <div> Ros2 </div>
+                <div> Docker </div>
+
+                `
+            },
