@@ -1,0 +1,51 @@
+            {
+                id: 'common-issues',
+                label: 'Common Issues',
+                content: `
+                <h1> Common Issues </h1>
+                <p> Here you will find common problems or issues known when using Raspbot V2. </p>
+                <ul> 
+                <li> If you have an issue that is documented with <strong> no fix stated </strong> or <strong> fix that doesn't work </strong> with your problem, report your problem to a TA or Professor. </li>
+                <li> If you encounter an undocumented issue, follow the procedure of the <strong> Undocumented Issues </strong> section second to bottom of the page. </li>
+                <li> See <strong> How to Properly Report an Issue </strong> section at the bottom of the page when reporting an issue. </li>
+                </ul>
+
+
+                <h2> Camera Issues </h2>
+
+                <div> Issue: Touching camera wire caused camera crash <div>
+                <p> Fix: Turn off robot, unplug camera, plug camera back in, turn on robot. </p>
+
+                <div> Issue: Camera won't work/only showing black </div>
+                <p> Fix: Make sure you plugged in camera <strong> before </strong> startup. <br> Fix: Remove camera cap. </p> 
+
+
+                <h2> Ros2 Issues </h2>
+
+                <div> Issue: ValueError: bad marshal data </div>
+                <p> Fix: TBD </p>
+
+
+                <h2> Jupyter Labs Issues </h2>
+
+
+                <h2> Docker Issues </h2>
+
+
+                <h2> Other Issues </h2>
+
+
+
+
+                <h2> Undocumented Issues </h2>
+                
+                <div> Issue: Unknown/Undocumented </div>
+                <p> Fix: Try turning robot off and back on again. If issue remains/repeats, let a TA or Professor know of the issue. </p>
+
+
+                <h2> How to Properly Report an Issue </h2>
+                <p> It is better to report an issue earlier then spending a lot of class time trying to debug it on your own, if the known fixes don't work, report the issue to a TA or Professor.</p>
+                <p> Tell your TA or Professor what issue you are encountering, what (if any) fixes you've attempted, and what caused this problem (if you know).
+                <br> Example: I have <strong> x issue</strong> when I do <strong> y </strong>. I've tried <strong> fix z </strong> I found on the Common Issues page but it didn't work. </p> 
+                `
+            },
