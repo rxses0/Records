@@ -4,7 +4,7 @@
       - (main page seen when we click on 'Raspbot')
 <h1> Overview </h1>
       - Contains high level info on hardware, software, key features
-<h1>Getting Started</h1>
+<h1>Getting Started: in progress - Sara </h1>
     <h3> Setting up the robot </h3>
         - turning it on, things to watch out for
     <h3> Connect via app </h3>
