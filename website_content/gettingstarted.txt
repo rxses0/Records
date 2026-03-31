@@ -36,5 +36,4 @@
                 <li> When prompted, enter ‘pi’ as the username and ‘yahboom’ as the password. Be sure to click ‘Remember password’ when connecting or it may fail.</li>
                 * Note: There may be some lag when using VNC Viewer.
                 </ol>
-                <div class="coming-soon-banner">🚧 Coming Soon</div>`
             },
