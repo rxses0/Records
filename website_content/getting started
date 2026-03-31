@@ -1,0 +1,40 @@
+{
+                id: 'getting-started',
+                label: 'Getting Started',
+                content: `
+                <h1> Getting Started - Setting Up and Connecting </h1>
+                <h3>Turning on/Setting up the robot:</h3>
+                <ul>
+                <strong>Action</strong>: When using the robot's camera functionalities, make sure that the USB is plugged into one of the ports located on the back of the bot (where the powers switch is)
+                <li>Locate the switch on the backside of the robot, below the USB ports. Once located, flip it. It may take a minute for the robot to boot up fully, so wait until you hear 3 beeps. </li>
+                <li>The robot’s IP address should appear on the OLED screen. You can use this IP address to connect to the robot from the app, access Jupyter Lab, connect via VNC Viewer, or to ssh into the robot if required. </li>
+                <li>Once the robot has booted up, you will be able to connect to its hotspot. When connecting to wifi, locate the hotspot that says ‘Raspbot [# bot]’ and connect to it.  </li>
+                * Note: The [# bot] is the same # on the sticker on the bot.
+                You will need to connect to the robot's hotspot on the device you are using for all connection methods.
+                </ul>
+
+                <h3> Connecting via App </h3>
+                <ol> 
+                <li>Download the MakerControl app by Yahboom. Once downloaded, make sure you are connected to the robot's hotspot in order to automatically be connected.</li>
+                <li>Make sure you are connected to the robots hotspot on whatever device you are using the app on.</li>
+                <li>The robot should appear automatically to prompt you to connect. If not, use the IP address displayed on the OLED screen on top of the robot, select “manual connect”, and type in the robot’s IP address</li>
+                <li>Once connected, you will be able to control the robots motor functions.</li>
+                </ol>
+
+                <h3> Connecting via JupyterLab </h3>
+                <ol>
+                <li>Type into your browser search bar, "http://[robot_ip]:8888/lab" (if prompted, the password is yahboom).</li>
+                <li>Use the file tree on the left to navigate to project_demo.</li>
+                </ol>
+                <h3> Connecting via VNC Viewer </h3>
+                <ol>
+                The robots have a VNC server pre-installed which will allow you to remotely access and control the robot so long as you are on the same network.
+                <li>Download VNC Viewer from this link: https://www.realvnc.com/en/connect/download/viewer/ </li>
+                <ul><li>You will need to create a account and verify your email address.</ul></li>
+                <li>Once downloaded, open VNC Viewer and enter the IP address of the robot (located on the OLED screen) in the bar at the top.</li>
+                <ul><li>There may be a warning about the connection being uncrypted.</ul></li>
+                <li> When prompted, enter ‘pi’ as the username and ‘yahboom’ as the password. Be sure to click ‘Remember password’ when connecting or it may fail.</li>
+                * Note: There may be some lag when using VNC Viewer.
+                </ol>
+                <div class="coming-soon-banner">🚧 Coming Soon</div>`
+            },
