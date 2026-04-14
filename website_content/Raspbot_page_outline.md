@@ -14,8 +14,8 @@
 <h1> Basic Examples (Python) </h1>
     - provide minimal code examples to interact with each aspect of the bot
     <h3> Read/write motor </h3>
-    <h3> basic move (forward, left, right, etc) working on </h3>
-    <h3> read/write camera servos working on </h3>
+    <h3> basic move (forward, left, right, etc): done </h3>
+    <h3> read/write camera servos: done </h3>
     <h3> control buzzer </h3>
     <h3> control light bar </h3>
     <h3> ultrasonic </h3>
