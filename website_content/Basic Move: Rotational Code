@@ -1,0 +1,16 @@
+import sys
+sys.path.append('/home/pi/project_demo/lib')
+from McLumk_Wheel_Sports import *
+
+speed = 100 # how fast the robot moves (0-100)
+duration = 1.25 # how long each movement lasts (seconds)
+
+rotate_left(speed)
+time.sleep(duration)
+stop_robot()
+
+rotate_right(speed)
+time.sleep(duration)
+stop_robot()
+
+del bot
